@@ -1,0 +1,103 @@
+{
+  "uid" : "b48ad08d9ec106c3",
+  "name" : "test_validation",
+  "fullName" : "test_validation#test_validation",
+  "historyId" : "41487e2e3fe51729059ed1406e1c9513",
+  "time" : {
+    "start" : 1611992431719,
+    "stop" : 1611992435134,
+    "duration" : 3415
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "starter",
+    "time" : {
+      "start" : 1611992406341,
+      "stop" : 1611992431670,
+      "duration" : 25329
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1611992405561,
+      "stop" : 1611992406341,
+      "duration" : 780
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "starter::0",
+    "time" : {
+      "start" : 1611992436003,
+      "stop" : 1611992436617,
+      "duration" : 614
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_validation"
+  }, {
+    "name" : "host",
+    "value" : "PRDCLT320"
+  }, {
+    "name" : "thread",
+    "value" : "7672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a64ea155a32f939b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611991571758,
+        "stop" : 1611991573817,
+        "duration" : 2059
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b48ad08d9ec106c3.json",
+  "parameterValues" : [ ]
+}

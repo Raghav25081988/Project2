@@ -1,0 +1,110 @@
+{
+  "uid" : "c8eb87f04f92053a",
+  "name" : "test_validation3",
+  "fullName" : "test_validation#test_validation3",
+  "historyId" : "dd4b809c08484926f2d52bff043e80f3",
+  "time" : {
+    "start" : 1611992435863,
+    "stop" : 1611992435925,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://www.google.com/' == 'https://gooogle.com'\n  - https://gooogle.com\n  ?          -\n  + https://www.google.com/\n  ?         ++++          +",
+  "statusTrace" : "starter = None\n\n    def test_validation3(starter):\n>       assert driver.current_url == \"https://gooogle.com\"\nE       AssertionError: assert 'https://www.google.com/' == 'https://gooogle.com'\nE         - https://gooogle.com\nE         ?          -\nE         + https://www.google.com/\nE         ?         ++++          +\n\ntest_validation.py:32: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "starter",
+    "time" : {
+      "start" : 1611992406341,
+      "stop" : 1611992431670,
+      "duration" : 25329
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1611992405561,
+      "stop" : 1611992406341,
+      "duration" : 780
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "starter::0",
+    "time" : {
+      "start" : 1611992436003,
+      "stop" : 1611992436617,
+      "duration" : 614
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_validation"
+  }, {
+    "name" : "host",
+    "value" : "PRDCLT320"
+  }, {
+    "name" : "thread",
+    "value" : "7672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c99df826e527cdc4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'https://www.google.com/' == 'https://gooogle.com'\n  - https://gooogle.com\n  ?          -\n  + https://www.google.com/\n  ?         ++++          +",
+      "time" : {
+        "start" : 1611991574681,
+        "stop" : 1611991574706,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c8eb87f04f92053a.json",
+  "parameterValues" : [ ]
+}

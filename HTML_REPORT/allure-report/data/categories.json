@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Google' == 'Googley'\n  - Googley\n  ?       -\n  + Google",
+      "children" : [ {
+        "name" : "test_validation2",
+        "uid" : "f9390f7815b6ef77",
+        "parentUid" : "b0fada5ad92b29210beaa72bd415f0de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611992435185,
+          "stop" : 1611992435248,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0fada5ad92b29210beaa72bd415f0de"
+    }, {
+      "name" : "AssertionError: assert 'https://www.google.com/' == 'https://gooogle.com'\n  - https://gooogle.com\n  ?          -\n  + https://www.google.com/\n  ?         ++++          +",
+      "children" : [ {
+        "name" : "test_validation3",
+        "uid" : "c8eb87f04f92053a",
+        "parentUid" : "1190b25e4a1bc9dab4a526715c114069",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611992435863,
+          "stop" : 1611992435925,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1190b25e4a1bc9dab4a526715c114069"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
